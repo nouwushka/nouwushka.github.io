@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+        <title>CV | nouwushka</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Monoton&family=Press+Start+2P&family=Rubik+80s+Fade&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+        
+            
+        :root {
+            --bg: #000000;
+            --sf: #fff;
+            --txt: #9e9e9e;
+            --scd: #fff;
+            --glow: #0043fa;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg);
+            color: var(--txt);
+            overflow-x: hidden;
+            line-height: 1.5;
+            transition: all 3s ease;
+        }
+        .hero {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: 
+                radial-gradient(circle at 20% 80%, var(--accent) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, var(--secondary) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, var(--glow) 0%, transparent 50%);
+        }
+        .hero-content {
+            text-align: center;
+            z-index: 2;
+            text-shadow: 0 0 10px var(--glow);
+        }
+        .broken-text {
+            font-size: 5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            position: relative;
+            animation: glitch-skew 1s infinite linear alternate-reverse;
+        }
+        .main-font {
+            font-family: 'Press Start 2P' cursive;
+        }
+        .uwu-font {
+            font-family: 'Source Code Pro' monospace;
+        }
+        .spray-text {
+            background: linear-gradient(45deg, var(--accent), var(--secondary), var(--glow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content main-font">
+            <h1 class="">nouwushka</h1>
+            <p class="uwu-font" style="font-size: 1.5; margin-top:2;">
+                <span class="spray-text"> uwushka</span>
+            </p>
+        </div>
+    </section>
+</body>
+</html>
